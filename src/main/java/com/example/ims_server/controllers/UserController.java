@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class UserController {
 
-
     private final UserService userService;
 
     @GetMapping("/all")
@@ -48,8 +47,6 @@ public class UserController {
     public ResponseEntity<User> getCurrentUser(){
         return ResponseEntity.ok(userService.getCurrentLoggedInUser());
     }
-
-
 
 
 }

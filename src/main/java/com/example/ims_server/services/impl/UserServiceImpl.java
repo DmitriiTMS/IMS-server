@@ -46,6 +46,7 @@ public class UserServiceImpl implements UserService {
 
         UserRole role = UserRole.MANAGER;
 
+//        для теста. СОЗДАНИЕ РОЛИ ПРИ РЕГИСТРАЦИИ НЕ ЖЕЛАТЕЛЬНО
         if (registerRequest.getRole() != null) {
             role = registerRequest.getRole();
         }

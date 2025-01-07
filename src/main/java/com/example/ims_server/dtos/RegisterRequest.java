@@ -23,6 +23,7 @@ public class RegisterRequest {
     @NotBlank(message = "phoneNumberRegisterDTO обязательно")
     private String phoneNumber;
 
+//    для теста. СОЗДАНИЕ РОЛИ ПРИ РЕГИСТРАЦИИ НЕ ЖЕЛАТЕЛЬНО
     private UserRole role;
 
 }

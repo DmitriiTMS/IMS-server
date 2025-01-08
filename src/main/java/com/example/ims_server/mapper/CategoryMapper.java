@@ -1,9 +1,7 @@
 package com.example.ims_server.mapper;
 
 import com.example.ims_server.dtos.CategoryDTO;
-import com.example.ims_server.dtos.UserDTO;
 import com.example.ims_server.entitys.Category;
-import com.example.ims_server.entitys.User;
 import org.mapstruct.Mapper;
 
 import java.util.List;
